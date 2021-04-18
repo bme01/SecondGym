@@ -1,0 +1,42 @@
+<!--pages/my/my.wxml-->
+<view class="myContainer">
+  <view class="user-section">
+    <image class="bg" src="/images/健身房.jpg"></image>
+    <view class="user-info-box" bindtap="login">
+      <view class="portrait-box">
+        <image class="portrait" src='{{userInfo.avatarUrl?userInfo.avatarUrl:"/images/missing-face.png"}}'></image>
+      </view>
+     <view class="info-box">
+        <text class="username">{{userInfo.nickname?userInfo.nickname: '点击授权登录'}}</text>
+     </view>
+    </view>
+  </view>
+
+
+  <view
+      class="cover-container"
+      bindtouchstart="handleTouchStart"
+      bindtouchmove="handleTouchMove"
+      bindtouchend="handleTouchEnd"
+      style="transform: {{coverTransform}}; transition: {{coveTransition}}"
+  >
+    <image class="arc" src="/images/arc.png"></image>
+    
+
+    <view class="nav-section">
+      <view class="nav-item"  hover-class="common-hover"  hover-stay-time="50">
+        <image src="/images/打卡日历.png" class="nav-icon"></image>
+        <text>打卡日历</text>
+      </view>
+      <view class="nav-item"   hover-class="common-hover" hover-stay-time="50">
+        <image src="/images/统计.png" class="nav-icon"></image>
+        <text>统计</text>
+      </view>
+      <view class="nav-item"  hover-class="common-hover"  hover-stay-time="50">
+        <image src="/images/身体指标.png" class="nav-icon"></image>
+        <text>身体指标</text>
+      </view>
+    </view>
+  </view>
+</view>
+

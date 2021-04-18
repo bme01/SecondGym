@@ -1,0 +1,8 @@
+<!--pages/workTogether/workTogether.wxml-->
+<view class="workTogetherContainer"> 
+  <view class="opening">
+    <text>{{opening}}</text>
+  </view>
+  <button class="invite">邀请肌友一起练</button>
+</view>
+

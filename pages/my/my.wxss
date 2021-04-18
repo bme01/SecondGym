@@ -1,0 +1,98 @@
+/* pages/my/my.wxss */
+page {
+  background-color:rgb(66, 64, 64);
+}
+
+page {
+  background-color:rgb(66, 64, 64);
+}
+
+.myContainer {
+  width: 100%;
+  height: 100%;
+
+}
+
+.myContainer .user-section {
+  height: 520rpx;
+  position: relative;
+  padding: 100rpx 30rpx 0;
+}
+.user-section .bg {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  opacity: 0.4;
+}
+
+
+.user-info-box{
+  height: 180rpx;
+  display:flex;
+  align-items:center;
+  position:relative;
+  z-index: 1;
+
+}
+
+.user-info-box .portrait{
+  width: 130rpx;
+  height: 130rpx;
+  border:5rpx solid #fff;
+  border-radius: 50%;
+}
+.user-info-box .username{
+  font-size: 24;
+  color: whitesmoke;
+  margin-left: 20rpx;
+}
+
+.cover-container{
+  height: 500rpx;
+  margin-top: -150rpx;
+  padding: 0 30rpx;
+  position:relative;
+  background: rgb(66, 64, 64);
+  padding-bottom: 20rpx;
+}
+
+.cover-container .arc{
+  position:absolute;
+  left: 0;
+  top: -34rpx;
+  width: 100%;
+  height: 36rpx;
+}
+
+
+/* 导航部分 */
+.cover-container .nav-section {
+  display: flex;
+  justify-content: space-around;
+  background: rgb(66, 64, 64);
+  padding: 20rpx 0;
+  border-radius: 15rpx;
+  color: whitesmoke;
+}
+
+
+.nav-section .nav-item {
+  width: 25%;
+  box-sizing: border-box;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.nav-section .nav-item .nav-icon {
+  height: 60rpx;
+  width: 60rpx;
+  padding-bottom: 10rpx;
+}
+
+.nav-section .nav-item text:last-child {
+  font-size: 22rpx;
+
+}
