@@ -1,0 +1,26 @@
+<!--pages/move/move.wxml-->
+<view class="moves container">
+  <view class="add">
+    <text style="width:500rpx"></text> 
+    <view class="addButton">
+      <text class="addButtonText">添加动作</text>
+      <image src="/images/添加.png" mode="widthFix"  class="addButtonIcon"></image>
+    </view>
+  </view>
+  <view class="searchBox">
+    <image src="/images/搜索.png" mode="widthFix" class="searchIcon"></image>
+    <input type="text" placeholder="搜索动作" class="search" confirm-type="search"> </input>
+  </view>
+  <view class="library">
+    <scroll-view class="category">
+      <view class="type" wx:for="{{category}}">
+        {{item}}
+      </view>
+    </scroll-view>
+    <scroll-view class="moveBox">
+      <view class="moves" wx:for="{{moves}}">
+      {{moves}}
+      </view>
+    </scroll-view>
+  </view>
+</view>

@@ -1,0 +1,54 @@
+{
+  "pages": [
+    "pages/training/training",
+    "pages/moves/moves",
+    "pages/workTogether/workTogether",
+    "pages/my/my",
+    "pages/login/login"
+  ],
+  "window": {
+    "backgroundTextStyle": "light",
+    "navigationBarBackgroundColor": "#424040",
+    "navigationBarTitleText": "第二健身房",
+    "navigationBarTextStyle": "white",
+    "navigationStyle": "default",
+    "backgroundColor": "#424040"
+  },
+  "style": "v2",
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#696969",
+    "selectedColor": "#F5F5F5",
+    "backgroundColor": "#424040",
+    "borderStyle": "black",
+    "list": [
+      {
+        "pagePath": "pages/training/training",
+        "text": "训练",
+        "iconPath": "images/训练-灰.png",
+        "selectedIconPath": "images/训练-绿.png"
+      },
+      {
+        "pagePath": "pages/moves/moves",
+        "text": "动作",
+        "iconPath": "images/动作-灰.png",
+        "selectedIconPath": "images/动作-绿.png"
+      },
+      {
+        "pagePath": "pages/workTogether/workTogether",
+        "text": "一起练",
+        "iconPath": "images/一起练-灰.png",
+        "selectedIconPath": "images/一起练-绿.png"
+      },
+      {
+        "pagePath": "pages/my/my",
+        "text": "我的",
+        "iconPath": "images/我的-灰.png",
+        "selectedIconPath": "images/我的-绿.png"
+      }
+    ]
+  },
+  "functionalPages": {
+    "independent": true
+  }
+}

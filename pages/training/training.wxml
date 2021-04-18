@@ -1,0 +1,29 @@
+<!--pages/home/home.wxml-->
+
+<view class="exercise container">
+  <view class="opening">
+    <text>{{opening}}</text>
+  </view>
+
+    <button class="newExercise">创建空白训练</button>
+ 
+
+  <view class="templates">
+    <!-- <view class="officialTemplates" bindtap="createTraining">
+      <text>官方模板</text>
+    </view> -->
+    <view class="customTemplates">
+      <text>模板列表</text>
+    </view>
+    <view class="placeHolder"></view>
+    <view class="add" bindtap="addTemplates">
+      <image src="/images/添加.png" mode="widthFix" style="width:40rpx;height:40rpx" ></image>
+    </view>
+    
+  </view>
+ 
+</view>
+
+  
+
+

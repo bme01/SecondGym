@@ -1,0 +1,99 @@
+/* pages/move/move.wxss */
+page {
+  background-color:rgb(66, 64, 64);
+  height: 100%;
+}
+
+.add {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding-bottom: 20rpx;
+  padding-top: 10rpx;
+}
+
+.addButton {
+  display: flex;
+  justify-content: center;
+  height: 60rpx;
+  width: 180rpx;
+  padding: 10rpx 5rpx;
+  background-color: rgb(167, 233, 167,0.3);
+  border-radius: 20rpx;
+  box-sizing: border-box;
+}
+
+.addButtonText {
+  color: whitesmoke;
+  padding-right:  5rpx;
+}
+
+.addButtonIcon {
+  width:35rpx;
+  height:35rpx;
+  padding-top: 5rpx;
+}
+
+.searchBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  padding: 10rpx;
+  height: 50rpx;
+  width: 700rpx;
+  border-radius: 10rpx;
+  background: rgb(73, 71, 71);
+}
+
+.searchIcon {
+  width:30rpx;
+  height:30rpx;
+  background-image: image("/images/添加.png");
+  background-repeat: no-repeat;
+  border-right: 5rpx solid #777373;
+  padding: 10rpx;
+}
+
+.search {
+  padding-left: 10rpx;
+  padding-top: 5rpx;
+  color: whitesmoke;
+}
+
+.library {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: nowrap;
+  width: 700rpx;
+  padding-top: 40rpx;
+}
+
+.library .category {
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: center;
+  height: 800rpx;
+  width: 150rpx;
+  color: #777373;
+}
+
+.library .category .type {
+  height: 80rpx;
+}
+
+.library .moveBox {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-content: flex-start;
+  flex-wrap: wrap;
+  width: 450rpx;
+  height: 1000rpx;
+}
+
+.library .moveBox .moves {
+  height: 100rpx;
+  width: 200rpx;
+  color: whitesmoke;
+}

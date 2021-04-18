@@ -1,0 +1,17 @@
+/* pages/login/login.wxss */
+.background {
+  height: 40%;
+}
+
+.buttonArea {
+  width: 100%;
+}
+
+.loginButton {
+  width: 50% !important;
+  height: 80rpx;
+  font-size: 35rpx;
+  color: rgb(92, 94, 90);
+  background: rgb(197, 235, 159);
+  border-radius: 20rpx;
+}

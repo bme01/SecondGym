@@ -1,0 +1,51 @@
+/* pages/home/home.wxss */
+page {
+  background-color:rgb(66, 64, 64);
+}
+
+.opening {
+  align-self: start;
+  left: 0;
+  padding: 0rpx 20rpx;
+  height: 200rpx;
+  box-sizing: border-box;
+  font-size: 40rpx;
+  color: whitesmoke;
+  line-height: 1.8;
+}
+
+.newExercise {
+  background-color: rgb(197, 235, 159);
+  width: 90% !important;
+  color: whitesmoke;
+  margin-bottom: 40rpx;
+  border-radius: 20rpx;
+}
+
+.templates {
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-start;
+  align-self: flex-start;
+  color: whitesmoke;
+  padding: 20rpx;
+  font-size: 30rpx;
+}
+
+/* .officialTemplates {
+  height: 40rpx;
+  padding-right: 10rpx;
+} */
+
+.placeHolder {
+  width: 530rpx;
+}
+
+.add {
+  width: 40rpx;
+  height: 40rpx;
+  background-color: rgb(167, 233, 167,0.3);
+  padding: 5rpx;
+  border-radius: 50%;
+}
+
